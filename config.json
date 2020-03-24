@@ -1,0 +1,9 @@
+ {
+    "configs": [
+        {
+            "stage": "init",
+            "appName": "初始项目",
+            "folder": "./differences/init_src"
+        }
+    ]
+}
