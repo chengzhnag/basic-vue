@@ -26,7 +26,7 @@ module.exports = {
 		config.resolve.alias
 			.set('@', resolve('src'))
 			.set('_c', resolve('src/components/'))
-			.set('_as', resolve('src/assets/img/'))
+			.set('_as', resolve('src/assets/image/'))
 	},
 	css: {
 		loaderOptions: {

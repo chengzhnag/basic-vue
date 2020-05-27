@@ -1,15 +1,14 @@
 const mixins = {
-		data() {
-			return {
-
-			}
-		},
-		filters: {
-
-		},
-		computed: {
+	data() {
+		return {
 
 		}
+	},
+	filters: {
+
+	},
+	computed: {
+
 	},
 	methods: {
 		onBack() {

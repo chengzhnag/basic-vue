@@ -8,7 +8,7 @@
  * @param {string} cFormat
  * @returns {string | null}
  */
-export function parseTime(time, cFormat='{y}-{m}-{d}') {
+export function parseTime(time, cFormat = '{y}-{m}-{d}') {
   if (arguments.length === 0) {
     return null
   }
@@ -622,5 +622,14 @@ export function isEmpty(val) {
   }
 
   return false;
+}
+
+export function getUrlKey(name) {
+  var reg = new RegExp('(^|&)' + name + '=([^&]*)(&|$)');
+  var r = window.location.search.substr(1).match(reg);
+  if (r != null) {
+    return decodeURI(r[2]);
+  }
+  return "";
 }
 
